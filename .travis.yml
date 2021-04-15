@@ -117,4 +117,4 @@ deploy:
   provider: script
   script: devscripts/CI/travisci-release
   on:
-    tags: true
+    tags: false
