@@ -31,7 +31,7 @@ if [ "$TRAVIS_OS_NAME" == 'linux' ]; then
         else
             pyenv global system 3.6.7 2.7.15
             pip3.6 install -U "auditwheel==3.1.0"
-        fi
+        fi &&
     elif [ "$py" == 3.4 ]; then
         pip install -U typing "auditwheel==2.1.1"
     else
